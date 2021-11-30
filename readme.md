@@ -9,8 +9,8 @@ API wrapper for 5b5t's statistics
 Click on the modules to be taken to the detailed Documentaition
 
 **Modules:**
-    [**api**](https://placeholder.com)
-    [**tools**](https://placeholder.com)
+    [**api,**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/api.md)
+    [**tools**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/tools.md)
 
 ## Usage
 ```py
