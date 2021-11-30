@@ -4,8 +4,8 @@
 stats = api.Statistics()
 ```
 
-All attributes work with a request variable.
-Make sure to pass the request with each attribute like shown below.
+**All attributes work with a request variable.**
+**Make sure to pass the request with each attribute like shown below.**
 
 
 ## Attributes
