@@ -25,7 +25,7 @@ stats.attribute(r) # Pass the variable "r" to your "attribute"
 **Base:**
 > stats.x(y)
 
-x = module
+x = attribte
 y = request
 
 > raw(y)
@@ -43,7 +43,7 @@ Returns the Kills of the requested profile.
 > deaths(y)
 Returns the Deaths of the requested profile.
 
-> joindate
+> joindate(y)
 Returns the Joindate of the requested profile.
 Returned value: str Text
 
