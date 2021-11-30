@@ -74,7 +74,7 @@ Returns the amount of times a user jumped.
 
 > timesincedeath(y)
 Returns the amount of time that has passed since the user was last killed.
-Returned value: Ticks
+Returned value: Ticks.
 20 Ticks = 1 second. Divide all ticks by 20 to get seconds
 
 > score(y)
@@ -85,7 +85,7 @@ Returns a users health from the last time he logged out.
 
 > platime(y)
 Returns a users playtime.
-Returned value: Ticks
+Returned value: Ticks.
 20 Ticks = 1 second. Divide all ticks by 20 to get seconds
 
 > recordtime(y)
