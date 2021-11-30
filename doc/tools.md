@@ -28,6 +28,8 @@ tests.attribute(r) # Pass the variable "r" to your "attribute"
 x = attribute
 y = request
 
+## isvalid
+
 > isvalid(y)
 Returns True or False based off if the api call was a success or not.
 
@@ -39,6 +41,8 @@ Example:
 
 In this case, isvalid will return False
 
+## missmatch
+
 > missmatch(y, x)
 Compares the API output and your input to confirm that the api returned the correct profile
 
@@ -49,10 +53,12 @@ tests.missmatch(y, expecteduuidhere)
 ```
 This will return either True or False
 
+## errmsg
+
 > errmsg
 Returns the error message from the API
 
 If the api does not return an error message, this will return:
-"No error message provided. JSON response is valid"
+`"No error message provided. JSON response is valid"`
 If the api did return an error, it will return a string with the error message.
 
