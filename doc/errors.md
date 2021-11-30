@@ -1,6 +1,7 @@
+
 # Errors
 
-In general, when you try to get a value from a invalid request, the attribute will returne **None**
+In general, when you try to get a value from an invalid request, the attribute will return **None**
 
 You can prevent this by adding a `isvalid` check before outputting.
 
@@ -38,4 +39,3 @@ else:
     print("Something went wrong")
     print(tests.errmsg(r))
 ```
-

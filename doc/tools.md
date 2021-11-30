@@ -1,3 +1,4 @@
+
 # tools
 
 ```py
@@ -24,7 +25,7 @@ tests.attribute(r) # Pass the variable "r" to your "attribute"
 **Base:**
 > stats.x(y)
 
-x = attribte
+x = attribute
 y = request
 
 > isvalid(y)
@@ -36,7 +37,7 @@ Example:
 {"err":"user does not exist"}
 ```
 
-In this case isvalid will return False
+In this case, isvalid will return False
 
 > missmatch(y, x)
 Compares the API output and your input to confirm that the api returned the correct profile
@@ -51,6 +52,7 @@ This will return either True or False
 > errmsg
 Returns the error message from the API
 
-If the api does not return a error message this will return:
+If the api does not return an error message, this will return:
 "No error message provided. JSON response is valid"
-If the api did return a error it will return a string with the error message.
+If the api did return an error, it will return a string with the error message.
+

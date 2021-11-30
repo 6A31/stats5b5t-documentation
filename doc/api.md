@@ -1,3 +1,4 @@
+
 # api
 
 ```py
@@ -25,7 +26,7 @@ stats.attribute(r) # Pass the variable "r" to your "attribute"
 **Base:**
 > stats.x(y)
 
-x = attribte
+x = attribute
 y = request
 
 > raw(y)
@@ -78,16 +79,17 @@ Returned value: Ticks.
 20 Ticks = 1 second. Divide all ticks by 20 to get seconds
 
 > score(y)
-Returns a users score.
+Returns a user's score.
 
 > healt(y)
-Returns a users health from the last time he logged out.
+Returns a user's health from the last time he logged out.
 
 > platime(y)
-Returns a users playtime.
+Returns a user's playtime.
 Returned value: Ticks.
 20 Ticks = 1 second. Divide all ticks by 20 to get seconds
 
 > recordtime(y)
 Returns the time this data was taken.
 Returned value: str Text
+

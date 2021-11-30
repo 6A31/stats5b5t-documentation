@@ -1,14 +1,15 @@
+
 # [5b5t statistics](https://github.com/ScobraScope/stats5b5t)
 API wrapper for 5b5t's statistics
 
-[**THIS IS JUST THE DOCUMENTAITION REPO. THE LIBRARY REPO CAN BE FOUND HERE**](https://github.com/ScobraScope/stats5b5t)
+[**THIS IS JUST THE DOCUMENTATION REPO. THE LIBRARY REPO CAN BE FOUND HERE**](https://github.com/ScobraScope/stats5b5t)
 
 ```pip install stats5b5t```
 
 > **Tested on: [Python 3.9](https://www.python.org/downloads/release/python-390)**
 
-## Documentaition
-Click on the modules to be taken to the detailed Documentaition
+## Documentation
+Click on the modules to be taken to the detailed Documentation
 
 **Modules:**
     [**api,**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/api.md)
@@ -41,7 +42,7 @@ print(tests.missmatch(r))
 print(tests.errmsg(r))
 ```
 
-## Mudules: api, tools
+## Modules: api, tools
 
 > **api**
 
@@ -50,3 +51,5 @@ Handles requests and data sorting for you.
 > **tools**
 
 Handles debugging and checks for you.
+
+
