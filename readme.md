@@ -12,9 +12,9 @@ API wrapper for 5b5t's statistics
 Click on the modules to be taken to the detailed Documentation
 
 **Modules:**
-    [**api,**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/api.md)
-    [**tools,**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/tools.md)
-    [**errors**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/errors.md)
+    [**api,**](https://github.com/ScobraScope/stats5b5t-documentation/blob/main/doc/api.md)
+    [**tools,**](https://github.com/ScobraScope/stats5b5t-documentation/blob/main/doc/tools.md)
+    [**errors**](https://github.com/ScobraScope/stats5b5t-documentation/blob/main/doc/errors.md)
 ## Usage
 ```py
 from stats5b5t import api
