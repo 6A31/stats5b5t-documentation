@@ -1,7 +1,7 @@
 # [5b5t statistics](https://github.com/ScobraScope/stats5b5t)
 API wrapper for 5b5t's statistics
 
-**THIS IS JUST THE DOCUMENTAITION REPO. THE LIBRARY REPO CAN BE FOUND [HERE]**(https://github.com/ScobraScope/stats5b5t)
+[**THIS IS JUST THE DOCUMENTAITION REPO. THE LIBRARY REPO CAN BE FOUND HERE**](https://github.com/ScobraScope/stats5b5t)
 
 ```pip install stats5b5t```
 
@@ -12,8 +12,8 @@ Click on the modules to be taken to the detailed Documentaition
 
 **Modules:**
     [**api,**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/api.md)
-    [**tools**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/tools.md)
-
+    [**tools,**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/tools.md)
+    [**errors**](https://github.com/ScobraScope/stats5b5t-documentaition/blob/main/doc/errors.md)
 ## Usage
 ```py
 from stats5b5t import api
