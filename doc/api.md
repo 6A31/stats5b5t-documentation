@@ -24,72 +24,72 @@ stats.attribute(r) # Pass the variable "r" to your "attribute"
 ### Attributes / Functions
 
 **Base:**
-> stats.x(y)
+> **stats.x(y)**
 
 x = attribute
 y = request
 
-> raw(y)
+> **raw(y)**
 Returns the raw JSON string from the api call.
 
-> uuid(y)
+> **uuid(y)**
 Returns the UUID of the requested profile.
 
-> ratio(y)
+> **ratio(y)**
 Returns the Kill / Death ratio of the requested profile.
 
-> kills(y)
+> **kills(y)**
 Returns the Kills of the requested profile.
 
-> deaths(y)
+> **deaths(y)**
 Returns the Deaths of the requested profile.
 
-> joindate(y)
+> **joindate(y)**
 Returns the Joindate of the requested profile.
 Returned value: str Text
 
-> lastplayed(y)
+> **lastplayed(y)**
 Returns the time the requested profile was last seen online.
 Returned value: str Text
 
-> leaves(y)
+> **leaves(y)**
 Returns the amount of times a user has left the server.
 
-> enderpearls(y)
+> **enderpearls(y)**
 Returns the amount of enderpearls a user has thrown.
 
-> crystal(y)
+> **crystal(y)**
 Returns the amount of crystals a user has placed.
 
-> damage(y)
+> **damage(y)**
 Returns the amount of damage a user has given
 
-> damagetaken(y)
+> **damagetaken(y)**
 Returns the amount of damage a user has taken.
 
-> mobkills(y)
+> **mobkills(y)**
 Returns the amount of mobs that a user has killed.
 
-> jumps(y)
+> **jumps(y)**
 Returns the amount of times a user jumped.
 
-> timesincedeath(y)
+> **timesincedeath(y)**
 Returns the amount of time that has passed since the user was last killed.
 Returned value: Ticks.
 20 Ticks = 1 second. Divide all ticks by 20 to get seconds
 
-> score(y)
+> **score(y)**
 Returns a user's score.
 
-> healt(y)
+> **healt(y)**
 Returns a user's health from the last time he logged out.
 
-> platime(y)
+> **platime(y)**
 Returns a user's playtime.
 Returned value: Ticks.
 20 Ticks = 1 second. Divide all ticks by 20 to get seconds
 
-> recordtime(y)
+> **recordtime(y)**
 Returns the time this data was taken.
 Returned value: str Text
 
