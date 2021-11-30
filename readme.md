@@ -1,5 +1,7 @@
-# 5b5t statistics
+# [5b5t statistics](https://github.com/ScobraScope/stats5b5t)
 API wrapper for 5b5t's statistics
+
+**THIS IS JUST THE DOCUMENTAITION REPO. THE LIBRARY REPO CAN BE FOUND [HERE](https://github.com/ScobraScope/stats5b5t)
 
 ```pip install stats5b5t```
 
