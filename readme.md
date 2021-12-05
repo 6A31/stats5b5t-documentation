@@ -41,14 +41,26 @@ print(tests.isvalid(r))
 print(tests.missmatch(r))
 print(tests.errmsg(r))
 ```
+**Username instead of UUID**
+
+```py
+from stats5b5t import api
+
+stats = api.Statistics()
+
+uuid = stats.getuuid("playername")
+r = stats.request(uuid)
+
+print(stats.deaths(r))
+```
 
 ## Modules: api, tools
 
-> **api**
+> **[api](https://github.com/ScobraScope/stats5b5t-documentation/blob/main/doc/api.md)**
 
 Handles requests and data sorting for you.
 
-> **tools**
+> **[tools](https://github.com/ScobraScope/stats5b5t-documentation/blob/main/doc/tools.md)**
 
 Handles debugging and checks for you.
 
