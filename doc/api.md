@@ -22,12 +22,17 @@ stats.attribute(r) # Pass the variable "r" to your "attribute"
 ```
  
 ### Attributes / Functions
-
 **Base:**
-> **stats.x(y)**
-
+**stats.x(y)**
+----------
 x = attribute
+
 y = request
+
+z = playername
+
+**getuuid(z)**
+Returns a player's uuid that can be used to make a request 
 
 > **raw(y)**
 Returns the raw JSON string from the api call.
